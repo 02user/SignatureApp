@@ -15,6 +15,38 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="145dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="29dp"
+        android:text="DigitalClock" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="84dp"
+        android:text="Pick" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="17dp"
+        android:text="Exit" />
 
 </RelativeLayout>
